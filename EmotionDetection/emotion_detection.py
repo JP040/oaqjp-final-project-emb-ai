@@ -14,7 +14,8 @@ def emotion_detector(text_to_analyze):
             "disgust": None,
             "fear": None,
             "joy": None,
-            "sadness": None 
+            "sadness": None, 
+            "dominant_emotion": None
             }
 
     response_dictionary = json.loads(response.text)
